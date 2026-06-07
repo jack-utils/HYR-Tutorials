@@ -1,5 +1,6 @@
 package com.SeleniumPractice;
 //ImplicitWaitTimeout:For finding the web element how much maximum time we have to wait to find.
+//konni sarlu web elements instant ga dorakavu alantappdu selenium webdriver instant ga exception trow chestundi so manam e concept vadadam valla manam inmpicit ga konta time pedtam if aa timie lo avvakapote operation selenium exception throw chestundi
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
