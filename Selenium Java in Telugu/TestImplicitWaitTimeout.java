@@ -1,5 +1,5 @@
 package com.SeleniumPractice;
-
+//ImplicitWaitTimeout:For finding the web element how much maximum time we have to wait to find.
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
