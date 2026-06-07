@@ -1,5 +1,5 @@
 package com.SeleniumPractice;
-
+//Explicit wait lo oka obj create chesukoni tarvta use chesukuntam avasranni batti motham driver ki appicable avvadu
 import java.time.Duration;
 import java.util.Set;
 import java.util.function.Function;
