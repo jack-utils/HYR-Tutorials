@@ -16,6 +16,8 @@ Because sometimes WebDriver cannot interact with an element properly, but JavaSc
 	JavaScriptExecutor is used when Selenium WebDriver cannot perform certain actions reliably, such as clicking hidden elements, scrolling, handling complex UI components,
 	or executing JavaScript code directly in the browser.
 	It provides a way to interact with the webpage through JavaScript when normal WebDriver methods fail.
+
+3.***we can perform the above ops with the help of the java script to excecute the javascript in our web page for that selenium provide one interface called javascript
 /**
  * @author Yadagiri Reddy
  * JavascriptExecutor in Selenium WebDriver?
