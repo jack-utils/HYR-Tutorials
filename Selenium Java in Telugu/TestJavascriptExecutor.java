@@ -8,7 +8,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+1.What is javascriptexecutor?
+Ans:It is a interface which contains two methods with that two methods we will perform our desired operations
 
+2If Selenium WebDriver is there, why do we need JavaScriptExecutor?
+Because sometimes WebDriver cannot interact with an element properly, but JavaScript running inside the browser can.
+	JavaScriptExecutor is used when Selenium WebDriver cannot perform certain actions reliably, such as clicking hidden elements, scrolling, handling complex UI components,
+	or executing JavaScript code directly in the browser.
+	It provides a way to interact with the webpage through JavaScript when normal WebDriver methods fail.
 /**
  * @author Yadagiri Reddy
  * JavascriptExecutor in Selenium WebDriver?
