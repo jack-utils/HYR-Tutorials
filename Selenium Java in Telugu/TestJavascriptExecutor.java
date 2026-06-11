@@ -35,6 +35,9 @@ public class TestJavascriptExecutor {
 		driver.get("https://www.facebook.com/");
 		
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		//---->xpath syntax:document.evaluate(xpathExpression,contextNode,namespaceResolver,resultType,result).singleNodeValue
+		//---->document.evaluate() is a JavaScript DOM method used to evaluate an XPath expression against an HTML or XML document and return matching nodes.
+		//      It allows us to locate elements using XPath directly in JavaScript.
 //		WebElement element = (WebElement) jsExecutor.executeScript("return document.evaluate(\"//input[@id='email']\",document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;");
 //		element.sendKeys("xpath");
 //		jsExecutor.executeScript("document.getElementById('email').value='id';");
