@@ -17,7 +17,7 @@ Because sometimes WebDriver cannot interact with an element properly, but JavaSc
 	or executing JavaScript code directly in the browser.
 	It provides a way to interact with the webpage through JavaScript when normal WebDriver methods fail.
 
-3.***we can perform the above ops with the help of the java script to excecute the javascript in our web page for that selenium provide one interface called javascript
+3.***we can perform the above ops with the help of the java script to excecute the javascript in our web page for that selenium provide one interface called javascriptexecutor
 /**
  * @author Yadagiri Reddy
  * JavascriptExecutor in Selenium WebDriver?
