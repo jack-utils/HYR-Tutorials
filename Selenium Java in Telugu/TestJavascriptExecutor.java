@@ -10,6 +10,11 @@ import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 1.What is javascriptexecutor?
 Ans:It is a interface which contains two methods(executeScript,executeAsyncScript) with that two methods we will perform our desired operations
+	Synchronous JavaScript executes code line by line, where each operation must complete before the next one starts.(Stand in queue)
+    Asynchronous JavaScript allows long-running operations such as API calls, timers, and network requests to run in the background while the rest of the code continues executing.
+	(Order food and do other work while waiting)
+
+
 
 2If Selenium WebDriver is there, why do we need JavaScriptExecutor?
 Because sometimes WebDriver cannot interact with an element properly, but JavaScript running inside the browser can.
