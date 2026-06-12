@@ -21,6 +21,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 // Explicit Wait waits for a particular condition to be satisfied before continuing execution. It uses WebDriverWait and polls at a default interval. 
 // 	Fluent Wait is a more flexible implementation that allows us to customize the polling frequency, timeout duration, and exceptions to ignore. 
 // 	In practice, Explicit Wait is sufficient for most scenarios, while Fluent Wait is used when finer control over the waiting behavior is required."
+// Polling is the interval at which Selenium repeatedly checks whether the expected condition is met. In Fluent Wait, we can customize this polling frequency using pollingEvery(). 
+// 	For example, if the polling interval is 2 seconds, Selenium checks the condition every 2 seconds until the timeout is reached or the condition becomes true.
 public class TestExplicitWait {
 	public static void main(String[] args) throws Exception {
 		WebDriverManager.chromedriver().setup();
